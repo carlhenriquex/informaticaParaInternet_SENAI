@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro</title>
+</head>
+<body>
+
+    <form action="#" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Sobre você</legend>
+            <label for="sobre">Conte um pouco sobre sua experência com tecnologia:</label>
+            <br>
+            <textarea name="sobre" id="sobre" cols="50" rows="8" maxlength="500" placeholder="Digite sua experiência"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Termos</legend>
+            <input type="checkbox" name="termos" id="termos" value="aceito" required>
+            <label for="termos">Declaro que as informações são verdadeiras</label>
+        </fieldset>
+
+        <section>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar Formulário">
+            <button type="button">Botão sem ação</button>
+        </section>
+    </form>
+</body>
+</html>
